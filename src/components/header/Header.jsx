@@ -49,11 +49,7 @@ const Header = ({ type }) => {
 
   return (
     <div className="header">
-      <div
-        className={
-          type === "list" ? "headerContainer listMode" : "headerContainer"
-        }
-      >
+      <div className={type === "list" ? "headerContainer listMode" : "headerContainer"} >
         <div className="headerList">
           <div className="headerListItem active">
             <FontAwesomeIcon icon={faBed} />
@@ -77,6 +73,7 @@ const Header = ({ type }) => {
           </div>
         </div>
         {type !== "list" && (
+
           <>
             <h1 className="headerTitle">
               A lifetime of discounts? It's Genius.
@@ -197,6 +194,7 @@ const Header = ({ type }) => {
                 </button>
               </div>
             </div>
+
           </>
         )}
       </div>

@@ -1,5 +1,3 @@
-// import {  } from "./navbar"
-// import "./navbar.css"
 
 import "./navbar.css"
 
